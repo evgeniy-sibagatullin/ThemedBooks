@@ -1,0 +1,949 @@
+{
+ "kind": "books#volumes",
+ "totalItems": 485,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "X2W-iREJbaUC",
+   "etag": "jsFiGKE2060",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/X2W-iREJbaUC",
+   "volumeInfo": {
+    "title": "Самоучитель программирования для Android",
+    "authors": [
+     "Колисниченко Денис Николаевич"
+    ],
+    "publisher": "БХВ-Петербург",
+    "publishedDate": "2012",
+    "description": "Рассмотрены все основные аспекты создания приложений для платформы Android: установка необходимого программного обеспечения (JDK, Eclipse и Android SDK), использование эмулятора Android, создание интерфейса пользователя, работа с графикой, воспроизведение звука и видео, методы хранения данных (в том числе СУБД SQLite), взаимодействие с аппаратными средствами смартфона, платформа Titanium Mobile, отладка приложений и их публикация в онлайн-магазине Android Market. Особое внимание уделяется анализу и решению различных нештатных ситуаций, встречающихся на практике: отказ запуска эмулятора, отказ при загрузке созданного приложения, возможные проблемы при установке платформы Titanium Mobile и др. Описано взаимодействие с аппаратными средствами смартфона (датчики, камера, виброзвонок, Bluetooth-адаптер и др.), получение информации о телефоне и его состоянии.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9785977507707"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "5977507704"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 272,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "averageRating": 5.0,
+    "ratingsCount": 1,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "0.9.6.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=X2W-iREJbaUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=X2W-iREJbaUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "ru",
+    "previewLink": "http://books.google.com.ua/books?id=X2W-iREJbaUC&printsec=frontcover&dq=android&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=X2W-iREJbaUC&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-X2W-iREJbaUC"
+   },
+   "saleInfo": {
+    "country": "UA",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 57.46,
+     "currencyCode": "UAH"
+    },
+    "retailPrice": {
+     "amount": 43.1,
+     "currencyCode": "UAH"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=X2W-iREJbaUC&rdid=book-X2W-iREJbaUC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 5.746E7,
+       "currencyCode": "UAH"
+      },
+      "retailPrice": {
+       "amountInMicros": 4.31E7,
+       "currencyCode": "UAH"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "UA",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com.ua/books/download/%D0%A1%D0%B0%D0%BC%D0%BE%D1%83%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC-sample-epub.acsm?id=X2W-iREJbaUC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com.ua/books/download/%D0%A1%D0%B0%D0%BC%D0%BE%D1%83%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC-sample-pdf.acsm?id=X2W-iREJbaUC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=X2W-iREJbaUC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Рассмотрены все основные аспекты создания приложений для платформы Android: установка необходимого программного обеспечения (JDK, Eclipse ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "MoXpe6H2B5gC",
+   "etag": "5E8Zm7xQM8g",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/MoXpe6H2B5gC",
+   "volumeInfo": {
+    "title": "Android in The Attic",
+    "authors": [
+     "Nicholas Allan"
+    ],
+    "publisher": "Hachette UK",
+    "publishedDate": "2013-01-03",
+    "description": "Aunt Edna has created a no-nonsense nanny android to make sure Billy and Alfie don't have any fun. But then Alfie discovers how to override Auntie Anne-Droid's programming and nothing can stop them eating all the Cheeki Choko Cherry Cakes they like ... until the real aunt Edna is kidnapped!",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781444905465"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1444905465"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 192,
+    "printType": "BOOK",
+    "categories": [
+     "Juvenile Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.2.2.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=MoXpe6H2B5gC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=MoXpe6H2B5gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com.ua/books?id=MoXpe6H2B5gC&printsec=frontcover&dq=android&hl=&cd=2&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=MoXpe6H2B5gC&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-MoXpe6H2B5gC"
+   },
+   "saleInfo": {
+    "country": "UA",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 48.6,
+     "currencyCode": "UAH"
+    },
+    "retailPrice": {
+     "amount": 40.34,
+     "currencyCode": "UAH"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=MoXpe6H2B5gC&rdid=book-MoXpe6H2B5gC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 4.86E7,
+       "currencyCode": "UAH"
+      },
+      "retailPrice": {
+       "amountInMicros": 4.034E7,
+       "currencyCode": "UAH"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "UA",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com.ua/books/download/Android_in_The_Attic-sample-epub.acsm?id=MoXpe6H2B5gC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=MoXpe6H2B5gC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Aunt Edna has created a no-nonsense nanny android to make sure Billy and Alfie don&#39;t have any fun."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "kVRJCAAAQBAJ",
+   "etag": "/x5DIK5BJk8",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/kVRJCAAAQBAJ",
+   "volumeInfo": {
+    "title": "Разработка игр под Android",
+    "subtitle": "",
+    "authors": [
+     "Ди Марцио Джером"
+    ],
+    "publisher": "\"Издательский дом \"\"Питер\"\"\"",
+    "publishedDate": "2014-06-19",
+    "description": "Книга «Разработка игр под Android» станет вашим первым надежным источником решений проблем, возникающих при создании игр для платформы Android. В этой книге представлены распространенные проблемы и их решения, а также исходный код. Здесь вы можете найти решения проблем, характерных для разработки двухмерных игр: дизайн игрового меню, обнаружение столкновений, перемещение персонажей и фона, а также многое другое. Книга содержит рекомендации о том, как обрабатывать данные, вводимые игроком, как создавать несколько уровней, графику для разных разрешений экрана, а также о том, как работать с датчиками устройства. В этом издании вы найдете шаблонные фрагменты кода, решения и фреймворки, предназначенные для создания и настройки вашей игры, а также для последующей ее продажи. В книге «Разработка игр под Android» содержится информация по следующим вопросам: — основы работы с OpenGLES 2/3 на платформе Android; — создание крупных проектов, использующих графику; — добавление в игру множества уровней; — повышение сложности расчетов в ваших проектах; — хранение данных и многое другое.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9785496010801"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "5496010802"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 224,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "0.1.0.0.preview.1",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=kVRJCAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=kVRJCAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "ru",
+    "previewLink": "http://books.google.com.ua/books?id=kVRJCAAAQBAJ&pg=PA62&dq=android&hl=&cd=3&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=kVRJCAAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-kVRJCAAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "UA",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 128.6,
+     "currencyCode": "UAH"
+    },
+    "retailPrice": {
+     "amount": 87.45,
+     "currencyCode": "UAH"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=kVRJCAAAQBAJ&rdid=book-kVRJCAAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.286E8,
+       "currencyCode": "UAH"
+      },
+      "retailPrice": {
+       "amountInMicros": 8.745E7,
+       "currencyCode": "UAH"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "UA",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com.ua/books/download/%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0_%D0%B8%D0%B3%D1%80_%D0%BF%D0%BE%D0%B4_Andro-sample-pdf.acsm?id=kVRJCAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=kVRJCAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "&lt;RelativeLayout xmlns:\u003cb\u003eandroid\u003c/b\u003e=&quot;http://schemas.\u003cb\u003eandroid\u003c/b\u003e.com/apk/res/\u003cb\u003eandroid\u003c/b\u003e&quot; \u003cbr\u003e\nxmlns:tools=&quot;http://schemas.\u003cb\u003eandroid\u003c/b\u003e.com/tools&quot; \u003cb\u003eandroid\u003c/b\u003e:layout_width=&quot;\u003cbr\u003e\nmatch_parent&quot; \u003cb\u003eandroid\u003c/b\u003e:layout_height=&quot;match_parent&quot; tools:context=&quot;.\u003cbr\u003e\nSBGMenuScreen&quot; &gt;&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "8E_ADAAAQBAJ",
+   "etag": "X8mnQAmrGRk",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/8E_ADAAAQBAJ",
+   "volumeInfo": {
+    "title": "Android для разработчиков. 3-е издание",
+    "authors": [
+     "Дейтел Пол",
+     "Дейтел Харви"
+    ],
+    "publisher": "\"Издательский дом \"\"Питер\"\"\"",
+    "publishedDate": "2016-04-29",
+    "description": "Добро пожаловать в динамичный мир разработки приложений для смартфонов и планшетов Android с использованием Android Software Development Kit (SDK), языка программирования JavaTM, а также новой и стремительно развивающейся среды разработки Android Studio. В основе книги лежит принцип разработки, ориентированной на приложения, — концепции показаны на примере полностью работоспособных приложений Android, а не фрагментов кода. Более миллиона человек уже воспользовались книгами Дейтелов, чтобы освоить Java, C#, C++, C, JavaScript, XML, Visual Basic, Visual C++, Perl, Python и другие языки программирования. Третье издание этой книги позволит вам не только приступить к разработке приложений для Android , но и быстро опубликовать их в Google Play. Третье издание книги было полностью обновлено и познакомит вас с возможностями Android 6 и Android Studio.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9785496023719"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "5496023718"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 512,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "2.12.8.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=8E_ADAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=8E_ADAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "ru",
+    "previewLink": "http://books.google.com.ua/books?id=8E_ADAAAQBAJ&pg=PA435&dq=android&hl=&cd=4&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=8E_ADAAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-8E_ADAAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "UA",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 213.04,
+     "currencyCode": "UAH"
+    },
+    "retailPrice": {
+     "amount": 144.87,
+     "currencyCode": "UAH"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=8E_ADAAAQBAJ&rdid=book-8E_ADAAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 2.1304E8,
+       "currencyCode": "UAH"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.4487E8,
+       "currencyCode": "UAH"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "UA",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com.ua/books/download/Android_%D0%B4%D0%BB%D1%8F_%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%BE-sample-epub.acsm?id=8E_ADAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com.ua/books/download/Android_%D0%B4%D0%BB%D1%8F_%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%BE-sample-pdf.acsm?id=8E_ADAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=8E_ADAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "2 &lt;LinearLayout 3 xmlns:\u003cb\u003eandroid\u003c/b\u003e=&quot;http://schemas.\u003cb\u003eandroid\u003c/b\u003e.com/apk/res/\u003cb\u003eandroid\u003c/b\u003e&quot; \u003cbr\u003e\n4 xmlns:app=&quot;http://schemas.\u003cb\u003eandroid\u003c/b\u003e.com/apk/res-auto&quot; 5 xmlns:tools=&quot;http://\u003cbr\u003e\nschemas.\u003cb\u003eandroid\u003c/b\u003e.com/tools&quot; 6 \u003cb\u003eandroid\u003c/b\u003e:layout_width=&quot;match_parent&quot; 7&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "nfLDCwAAQBAJ",
+   "etag": "CONQBLgcBg8",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/nfLDCwAAQBAJ",
+   "volumeInfo": {
+    "title": "Привет, Android! Разработка мобильных приложений",
+    "authors": [
+     "Бурнет Эд"
+    ],
+    "publisher": "\"Издательский дом \"\"Питер\"\"\"",
+    "publishedDate": "2011-09-28",
+    "description": "Операционная система Android установлена внутри миллионов сотовых телефонов, коммуникаторов, планшетных компьютеров, нетбуков и смартбуков. Она разработана Google и Open Handset Alliance на основе ядра Linux. С помощью этой книги вы сможете создать собственное приложение для Android всего за несколько минут! Затем мы перейдем к более сложному примеру: программированию игры Android Sudoku. Шаг за шагом дописывая код игры, вы изучите основы программирования для Android. Вы научитесь писать приложения для аудио- и видеоконтента, работать с графикой, используя 2D и 3D OpenGL, обрабатывать веб-страницы и веб-сервисы, хранить данные с SQLite. Вы также узнаете, как продавать ваши приложения на Android Market. Если вы любите писать программы больше, чем читать о них, то эта книга для вас.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9785459010152"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "5459010152"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 256,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.2.1.0.preview.1",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=nfLDCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=nfLDCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "ru",
+    "previewLink": "http://books.google.com.ua/books?id=nfLDCwAAQBAJ&pg=PA52&dq=android&hl=&cd=5&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=nfLDCwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-nfLDCwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "UA",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 34.55,
+     "currencyCode": "UAH"
+    },
+    "retailPrice": {
+     "amount": 28.68,
+     "currencyCode": "UAH"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=nfLDCwAAQBAJ&rdid=book-nfLDCwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 3.455E7,
+       "currencyCode": "UAH"
+      },
+      "retailPrice": {
+       "amountInMicros": 2.868E7,
+       "currencyCode": "UAH"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "UA",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com.ua/books/download/%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82_Android_%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA-sample-pdf.acsm?id=nfLDCwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=nfLDCwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "«Linearшаyout хmins:\u003cb\u003eandroid\u003c/b\u003e—&quot;http://schemas, \u003cb\u003eandroid\u003c/b\u003e. com/арк/res/\u003cb\u003eandroid\u003c/b\u003e&quot; \u003cbr\u003e\n\u003cb\u003eandroid\u003c/b\u003e: раскоround—&quot;ОсоПору раскороund&quot; \u003cb\u003eandroid\u003c/b\u003e. Таyout height—&quot;ті11 \u003cbr\u003e\nparent&quot; \u003cb\u003eandroid\u003c/b\u003e. Таyout vidth-&quot;ті11 parent&quot; \u003cb\u003eandroid\u003c/b\u003e:раdding—&quot;15diр&quot; androi d:&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "tsRhkvo80iUC",
+   "etag": "Qke9KUwDaug",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/tsRhkvo80iUC",
+   "volumeInfo": {
+    "title": "The Android Invasion",
+    "authors": [
+     "Christopher Black"
+    ],
+    "publisher": "Yearling",
+    "publishedDate": "1984-06-01",
+    "description": "In this multiple plot adventure, readers and their robot companion must stop armies of attacking androids before they conquer the galaxy.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0440400813"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780440400813"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 117,
+    "printType": "BOOK",
+    "categories": [
+     "Androids"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.0.1.0.preview.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=tsRhkvo80iUC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=tsRhkvo80iUC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com.ua/books?id=tsRhkvo80iUC&q=android&dq=android&hl=&cd=6&source=gbs_api",
+    "infoLink": "http://books.google.com.ua/books?id=tsRhkvo80iUC&dq=android&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/The_Android_Invasion.html?hl=&id=tsRhkvo80iUC"
+   },
+   "saleInfo": {
+    "country": "UA",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "UA",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=tsRhkvo80iUC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "In this multiple plot adventure, readers and their robot companion must stop armies of attacking androids before they conquer the galaxy."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "LN1CCgAAQBAJ",
+   "etag": "s4SXcC+lU1w",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/LN1CCgAAQBAJ",
+   "volumeInfo": {
+    "title": "Безопасный Android: защищаем свои деньги и данные от кражи",
+    "authors": [
+     "Колисниченко Денис Николаевич"
+    ],
+    "publisher": "БХВ-Петербург",
+    "publishedDate": "2015",
+    "description": "Рассмотрены различные способы обеспечения безопасности Android-устройств: шифрование персональной информации, хранящейся на устройстве, шифрование передаваемых данных, VPN-соединения, анонимизация трафика, выбор и использование антивируса и брандмауэра, поиск потерянного или украденного устройства, экономия трафика, защита от спама, получение прав root . Уделено внимание вопросам личной и семейной безопасности (ограничение доступа ребенка к определенным ресурсам/программам, отслеживание телефона ребенка и т.д.). Практически все рассмотренное в книге программное обеспечение бесплатное, поэтому книга поможет не только защитить ваше устройство, но и сэкономить деньги.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9785977531498"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "5977531494"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 160,
+    "printType": "BOOK",
+    "categories": [
+     "Android (Electronic resource)"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=LN1CCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=LN1CCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "ru",
+    "previewLink": "http://books.google.com.ua/books?id=LN1CCgAAQBAJ&pg=PA57&dq=android&hl=&cd=7&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=LN1CCgAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-LN1CCgAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "UA",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 48.78,
+     "currencyCode": "UAH"
+    },
+    "retailPrice": {
+     "amount": 40.49,
+     "currencyCode": "UAH"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=LN1CCgAAQBAJ&rdid=book-LN1CCgAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 4.878E7,
+       "currencyCode": "UAH"
+      },
+      "retailPrice": {
+       "amountInMicros": 4.049E7,
+       "currencyCode": "UAH"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "UA",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com.ua/books/download/%D0%91%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D1%8B%D0%B9_Android_%D0%B7%D0%B0%D1%89%D0%B8%D1%89-sample-pdf.acsm?id=LN1CCgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=LN1CCgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Устройства на базе \u003cb\u003eAndroid\u003c/b\u003e становятся все популярнее. По сути, у \u003cb\u003eAndroid\u003c/b\u003e в \u003cbr\u003e\nобщем-то и нет конкурентов. Устройства на базе iOS сто ́ят относительно \u003cbr\u003e\nдорого и не каждому по карману, а устройства на базе Windows Phone&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "H7L7G4EtwLEC",
+   "etag": "TxeI1AzR70g",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/H7L7G4EtwLEC",
+   "volumeInfo": {
+    "title": "Android для программистов: создаём приложения",
+    "authors": [
+     "Дейтел П"
+    ],
+    "publisher": "Издательский дом \"Питер\"",
+    "publishedDate": "2012-09-12",
+    "description": "Приложения Android Market (в настоящее время — Google Play) скачаны уже более миллиарда раз! Эта книга даст вам всё, что нужно, для начала разработки приложений для Android и быстрой публикации их на Android Market. Авторы используют приложение-ориентированный подход, при котором описание каждой технологии рассматривается на примере 16 полностью протестированных приложений для Android. Кроме описания процесса создания приложений, в книге дано пошаговое руководство по размещению ваших приложений на Android Market и примеры успешных публикаций. Пол Дейтел, Эби Дейтел и Харви Дейтел — члены Deitel & Associates Inc. Более миллиона человек во всем мире воспользовались книгами Дейтелов, чтобы освоить Java, C#, C++, C, веб-программирование, JavaScript, XML, Visual Basic, Visual C++, Perl, Python и другие языки программирования. Майкл Моргано является профессиональным разработчиком Android компании Imerj.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9785459016468"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "5459016460"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 560,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "0.5.0.0.preview.1",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=H7L7G4EtwLEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=H7L7G4EtwLEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "ru",
+    "previewLink": "http://books.google.com.ua/books?id=H7L7G4EtwLEC&printsec=frontcover&dq=android&hl=&cd=8&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=H7L7G4EtwLEC&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-H7L7G4EtwLEC"
+   },
+   "saleInfo": {
+    "country": "UA",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 136.39,
+     "currencyCode": "UAH"
+    },
+    "retailPrice": {
+     "amount": 92.75,
+     "currencyCode": "UAH"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=H7L7G4EtwLEC&rdid=book-H7L7G4EtwLEC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.3639E8,
+       "currencyCode": "UAH"
+      },
+      "retailPrice": {
+       "amountInMicros": 9.275E7,
+       "currencyCode": "UAH"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "UA",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com.ua/books/download/Android_%D0%B4%D0%BB%D1%8F_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%81%D1%82%D0%BE-sample-pdf.acsm?id=H7L7G4EtwLEC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=H7L7G4EtwLEC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Приложения Android Market (в настоящее время — Google Play) скачаны уже более миллиарда раз! Эта книга даст вам всё, что нужно, для начала ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "39Jlo3nZ7HIC",
+   "etag": "vSQsqkV7s5E",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/39Jlo3nZ7HIC",
+   "volumeInfo": {
+    "title": "Android 3. 0 Animations",
+    "subtitle": "Beginner's Guide",
+    "authors": [
+     "Alex Shaw"
+    ],
+    "publisher": "Packt Publishing Ltd",
+    "publishedDate": "2011-11-01",
+    "description": "Written in Packt's Beginner's Guide series, this book takes a step-by-step approach with each chapter made up of three to five tutorials that introduce and explain different animation concepts. All concepts are explained with real-world examples that are fun to read and work with. If you are familiar with developing Android applications and want to bring your apps to life by adding smashing animations, then this book is for you. The book assumes that you are comfortable with Java development and have familiarity with creating Android Views in XML and Java. The tutorials assume that you will want to work with Eclipse, but you can work just as well with your preferred development tools.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781849515290"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1849515298"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 304,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "2.2.2.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=39Jlo3nZ7HIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=39Jlo3nZ7HIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com.ua/books?id=39Jlo3nZ7HIC&printsec=frontcover&dq=android&hl=&cd=9&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=39Jlo3nZ7HIC&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-39Jlo3nZ7HIC"
+   },
+   "saleInfo": {
+    "country": "UA",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 321.18,
+     "currencyCode": "UAH"
+    },
+    "retailPrice": {
+     "amount": 224.83,
+     "currencyCode": "UAH"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=39Jlo3nZ7HIC&rdid=book-39Jlo3nZ7HIC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 3.2118E8,
+       "currencyCode": "UAH"
+      },
+      "retailPrice": {
+       "amountInMicros": 2.2483E8,
+       "currencyCode": "UAH"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "UA",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true
+    },
+    "pdf": {
+     "isAvailable": true
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=39Jlo3nZ7HIC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Written in Packt&#39;s Beginner&#39;s Guide series, this book takes a step-by-step approach with each chapter made up of three to five tutorials that introduce and explain different animation concepts."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "BjJJCAAAQBAJ",
+   "etag": "E23S8q1Xtjc",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/BjJJCAAAQBAJ",
+   "volumeInfo": {
+    "title": "Программирование под Android. 2-е изд.",
+    "subtitle": "",
+    "authors": [
+     "Медникс Зигард",
+     "Дорнин Лайрд",
+     "Мик Блэйк",
+     "Накамура Масуми"
+    ],
+    "publisher": "\"Издательский дом \"\"Питер\"\"\"",
+    "publishedDate": "2013-04-08",
+    "description": "В этой книге подробно рассказано о последних наработках в области программирования для Android. Тщательно изучив ее, вы научитесь создавать современные пользовательские интерфейсы как для мобильных телефонов, так и для планшетов. Книга рассказывает об инструментарии Android и важнейших практиках программирования для этой системы, в частности рассматривает оптимальные способы использования API для Android 4.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9785496005265"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "5496005264"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 560,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.3.0.0.preview.1",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=BjJJCAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=BjJJCAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "ru",
+    "previewLink": "http://books.google.com.ua/books?id=BjJJCAAAQBAJ&pg=PA1&dq=android&hl=&cd=10&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=BjJJCAAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-BjJJCAAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "UA",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 128.6,
+     "currencyCode": "UAH"
+    },
+    "retailPrice": {
+     "amount": 87.45,
+     "currencyCode": "UAH"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=BjJJCAAAQBAJ&rdid=book-BjJJCAAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.286E8,
+       "currencyCode": "UAH"
+      },
+      "retailPrice": {
+       "amountInMicros": 8.745E7,
+       "currencyCode": "UAH"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "UA",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com.ua/books/download/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BF%D0%BE%D0%B4-sample-pdf.acsm?id=BjJJCAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=BjJJCAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "В этой книге подробно рассказано о последних наработках в области программирования для Android. Тщательно изучив ее, вы научитесь ..."
+   }
+  }
+ ]
+}
