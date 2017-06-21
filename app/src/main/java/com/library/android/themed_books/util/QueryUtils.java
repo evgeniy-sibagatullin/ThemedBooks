@@ -36,12 +36,12 @@ public final class QueryUtils {
     private static final String PUBLISHED_DATE = "publishedDate";
     private static final String PAGE_COUNT = "pageCount";
 
-    private QueryUtils() {
-    }
+    private QueryUtils() {}
 
     public static ArrayList<Book> extractBooks(InputStream is) {
-
         ArrayList<Book> books = new ArrayList<>();
+
+        if (is == null) return books;
 
         try {
             JSONObject baseJsonResponse = new JSONObject(getStringFromStream(is));
