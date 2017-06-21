@@ -22,8 +22,7 @@ public class ThemedBooksActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         setupToolbar();
 
-        List<Book> books = QueryUtils.extractBooks(
-                getResources().openRawResource(R.raw.test_books_json));
+        List<Book> books = QueryUtils.extractBooks(null);
         ListView bookListView = (ListView) findViewById(R.id.book_list);
         bookListView.setAdapter(new BookAdapter(this, books));
     }
