@@ -1,7 +1,9 @@
 package com.library.android.themed_books.util;
 
+import android.content.Context;
 import android.util.Log;
 
+import com.library.android.themed_books.R;
 import com.library.android.themed_books.model.Book;
 
 import org.json.JSONArray;
@@ -25,11 +27,13 @@ public final class QueryUtils {
     private static final String AUTHORS = "authors";
     private static final String PUBLISHED_DATE = "publishedDate";
     private static final String PAGE_COUNT = "pageCount";
+    private Context mContext;
 
-    private QueryUtils() {
+    public QueryUtils(Context context) {
+        mContext = context;
     }
 
-    public static ArrayList<Book> fetchBookData(String requestUrl) {
+    public ArrayList<Book> fetchBookData(String requestUrl) {
         URL url = createUrl(requestUrl);
 
         String jsonResponse = null;
@@ -42,7 +46,7 @@ public final class QueryUtils {
         return extractBooks(jsonResponse);
     }
 
-    private static URL createUrl(String stringUrl) {
+    private URL createUrl(String stringUrl) {
         URL url = null;
         try {
             url = new URL(stringUrl);
@@ -52,7 +56,7 @@ public final class QueryUtils {
         return url;
     }
 
-    private static String makeHttpRequest(URL url) throws IOException {
+    private String makeHttpRequest(URL url) throws IOException {
         String jsonResponse = "";
 
         if (url == null) {
@@ -84,7 +88,7 @@ public final class QueryUtils {
         return jsonResponse;
     }
 
-    private static String readFromStream(InputStream inputStream) throws IOException {
+    private String readFromStream(InputStream inputStream) throws IOException {
         StringBuilder output = new StringBuilder();
         if (inputStream != null) {
             InputStreamReader inputStreamReader = new InputStreamReader(inputStream, Charset.forName("UTF-8"));
@@ -98,7 +102,7 @@ public final class QueryUtils {
         return output.toString();
     }
 
-    private static ArrayList<Book> extractBooks(String booksJSON) {
+    private ArrayList<Book> extractBooks(String booksJSON) {
         ArrayList<Book> books = new ArrayList<>();
 
         if (booksJSON == null) return books;
@@ -108,16 +112,29 @@ public final class QueryUtils {
             JSONArray bookItemsArray = baseJsonResponse.getJSONArray("items");
 
             for (int i = 0; i < bookItemsArray.length(); i++) {
-                JSONObject currentBook = bookItemsArray.getJSONObject(i);
-                JSONObject volumeInfo = currentBook.getJSONObject("volumeInfo");
-                String title = volumeInfo.getString(TITLE);
-                String mainAuthor = volumeInfo.getJSONArray(AUTHORS).getString(0);
-                String publishedDate = volumeInfo.getString(PUBLISHED_DATE);
-                int pageCount = volumeInfo.getInt(PAGE_COUNT);
-                books.add(new Book(title, mainAuthor, publishedDate, pageCount));
+                try {
+                    JSONObject currentBook = bookItemsArray.getJSONObject(i);
+                    JSONObject volumeInfo = currentBook.getJSONObject("volumeInfo");
+
+                    String title = volumeInfo.getString(TITLE);
+
+                    JSONArray authors = volumeInfo.optJSONArray(AUTHORS);
+                    String noAuthor = mContext.getString(R.string.no_author);
+                    String mainAuthor = authors == null ? noAuthor : authors.optString(0, noAuthor);
+
+                    String publishedDate = volumeInfo.optString(PUBLISHED_DATE,
+                            mContext.getString(R.string.no_date));
+
+                    String pageCount = volumeInfo.optString(PAGE_COUNT,
+                            mContext.getString(R.string.no_page_count));
+
+                    books.add(new Book(title, mainAuthor, publishedDate, pageCount));
+                } catch (JSONException e) {
+                    Log.e(LOG_TAG, "Problem parsing the book JSON", e);
+                }
             }
         } catch (JSONException e) {
-            Log.e(LOG_TAG, "Problem parsing the books JSON results", e);
+            Log.e(LOG_TAG, "Problem getting the books JSON items", e);
         }
 
         return books;

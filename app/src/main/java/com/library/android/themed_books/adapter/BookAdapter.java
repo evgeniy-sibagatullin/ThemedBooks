@@ -49,7 +49,7 @@ public class BookAdapter extends ArrayAdapter<Book> {
         ((TextView) listItemView.findViewById(R.id.title)).setText(book.getTitle());
         ((TextView) listItemView.findViewById(R.id.mainAuthor)).setText(book.getMainAuthor());
         ((TextView) listItemView.findViewById(R.id.publishedDate)).setText(book.getPublishedDate());
-        ((TextView) listItemView.findViewById(R.id.pageCount)).setText(Integer.toString(book.getPageCount()));
+        ((TextView) listItemView.findViewById(R.id.pageCount)).setText(book.getPageCount());
 
         return listItemView;
     }

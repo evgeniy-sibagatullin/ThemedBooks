@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Themed Books</string>
     <string name="search_for_books">search for books</string>
+    <string name="select_theme">Please select the theme. At least 3 chars.</string>
+    <string name="no_connection">No internet connection</string>
+    <string name="loading">Loading, please wait a second</string>
+    <string name="no_author">no author</string>
+    <string name="no_date">no date</string>
+    <string name="no_page_count">no page count</string>
 </resources>

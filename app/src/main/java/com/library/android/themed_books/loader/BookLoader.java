@@ -6,15 +6,21 @@ import android.content.Context;
 import com.library.android.themed_books.model.Book;
 import com.library.android.themed_books.util.QueryUtils;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class BookLoader extends AsyncTaskLoader<List<Book>> {
 
-    private String mUrl;
+    private static final String BOOKS_API_REQUEST_URL_TEMPLATE =
+            "https://www.googleapis.com/books/v1/volumes?q=%s&maxResults=10";
 
-    public BookLoader(Context context, String url) {
+    private String mTheme;
+    private Context mContext;
+
+    public BookLoader(Context context, String theme) {
         super(context);
-        mUrl = url;
+        mContext = context;
+        mTheme = theme;
     }
 
     @Override
@@ -24,6 +30,14 @@ public class BookLoader extends AsyncTaskLoader<List<Book>> {
 
     @Override
     public List<Book> loadInBackground() {
-        return mUrl == null ? null : QueryUtils.fetchBookData(mUrl);
+        List<Book> books;
+        if (mTheme == null || mTheme.length() < 3) {
+            books = new ArrayList<>();
+        } else {
+            QueryUtils queryUtils = new QueryUtils(mContext);
+            books = queryUtils.fetchBookData(String.format(BOOKS_API_REQUEST_URL_TEMPLATE,
+                    mTheme.replace(" ", ",")));
+        }
+        return books;
     }
 }

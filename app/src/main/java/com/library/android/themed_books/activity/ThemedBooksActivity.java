@@ -1,13 +1,17 @@
 package com.library.android.themed_books.activity;
 
 import android.app.LoaderManager;
+import android.content.Context;
 import android.content.Loader;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.library.android.themed_books.R;
 import com.library.android.themed_books.adapter.BookAdapter;
@@ -21,11 +25,10 @@ public class ThemedBooksActivity extends AppCompatActivity
         implements LoaderManager.LoaderCallbacks<List<Book>> {
 
     private static final int BOOK_LOADER_ID = 1;
-    public static final String BOOKS_API_REQUEST_URL_TEMPLATE =
-            "https://www.googleapis.com/books/v1/volumes?q=%s&maxResults=10";
 
     private BookAdapter mBookAdapter;
-    private String mTheme = "android";
+    private String mTheme;
+    private TextView mEmptyStateTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,16 +40,10 @@ public class ThemedBooksActivity extends AppCompatActivity
         mBookAdapter = new BookAdapter(this, new ArrayList<Book>());
         bookListView.setAdapter(mBookAdapter);
 
-        LoaderManager loaderManager = getLoaderManager();
-        loaderManager.initLoader(BOOK_LOADER_ID, null, this);
+        mEmptyStateTextView = (TextView) findViewById(R.id.empty_view);
+        getLoaderManager().initLoader(BOOK_LOADER_ID, null, this);
+        handleRestartLoader();
     }
-
-    protected void setupToolbar() {
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle(getTitle());
-        setSupportActionBar(toolbar);
-    }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -58,7 +55,8 @@ public class ThemedBooksActivity extends AppCompatActivity
             @Override
             public boolean onQueryTextSubmit(String query) {
                 mTheme = query;
-                getLoaderManager().restartLoader(BOOK_LOADER_ID, null, ThemedBooksActivity.this);
+                mBookAdapter.clear();
+                handleRestartLoader();
                 return true;
             }
 
@@ -73,7 +71,7 @@ public class ThemedBooksActivity extends AppCompatActivity
 
     @Override
     public Loader<List<Book>> onCreateLoader(int i, Bundle bundle) {
-        return new BookLoader(this, String.format(BOOKS_API_REQUEST_URL_TEMPLATE, mTheme));
+        return new BookLoader(this, mTheme);
     }
 
     @Override
@@ -82,10 +80,36 @@ public class ThemedBooksActivity extends AppCompatActivity
             mBookAdapter.clear();
             mBookAdapter.addAll(books);
         }
+
+        if (isConnected()) {
+            mEmptyStateTextView.setText(R.string.select_theme);
+        }
     }
 
     @Override
     public void onLoaderReset(Loader<List<Book>> loader) {
         mBookAdapter.clear();
+    }
+
+    private void setupToolbar() {
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle(getTitle());
+        setSupportActionBar(toolbar);
+    }
+
+    private void handleRestartLoader() {
+        if (isConnected()) {
+            mEmptyStateTextView.setText(R.string.loading);
+            getLoaderManager().restartLoader(BOOK_LOADER_ID, null, ThemedBooksActivity.this);
+        } else {
+            mEmptyStateTextView.setText(R.string.no_connection);
+        }
+    }
+
+    private boolean isConnected() {
+        ConnectivityManager connMgr = (ConnectivityManager)
+                getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
+        return networkInfo != null && networkInfo.isConnected();
     }
 }

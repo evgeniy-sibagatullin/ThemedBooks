@@ -17,6 +17,14 @@
 
     </android.support.design.widget.AppBarLayout>
 
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorAccent"/>
+
     <ListView
         android:id="@+id/book_list"
         android:layout_width="match_parent"

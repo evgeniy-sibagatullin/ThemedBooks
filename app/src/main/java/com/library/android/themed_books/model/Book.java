@@ -5,9 +5,9 @@ public class Book {
     private final String title;
     private final String mainAuthor;
     private final String publishedDate;
-    private final int pageCount;
+    private final String pageCount;
 
-    public Book(String title, String mainAuthor, String publishedDate, int pageCount) {
+    public Book(String title, String mainAuthor, String publishedDate, String pageCount) {
         this.title = title;
         this.mainAuthor = mainAuthor;
         this.publishedDate = publishedDate;
@@ -26,7 +26,7 @@ public class Book {
         return publishedDate;
     }
 
-    public int getPageCount() {
+    public String getPageCount() {
         return pageCount;
     }
 }
